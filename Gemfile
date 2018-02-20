@@ -38,7 +38,7 @@ gem 'xmlrpc'
 gem 'annotate'
 
 gem "paperclip", "~> 5.2.1"
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '~> 2.3'
 
 
 # Use Capistrano for deployment
