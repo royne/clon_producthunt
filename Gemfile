@@ -35,6 +35,8 @@ gem 'gravatar-ultimate'
 
 gem 'xmlrpc'
 
+gem 'annotate'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
