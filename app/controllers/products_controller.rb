@@ -12,7 +12,7 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
     @product.user = current_user
-    
+
     if @product.save
       redirect_to products_path, notice: "El producto se almaceno correctamente"
     else
@@ -45,6 +45,6 @@ class ProductsController < ApplicationController
 
   private
     def product_params
-      params.require(:product).permit(:name, :url, :description)
+      params.require(:product).permit(:name, :url, :description, :image)
     end
 end
